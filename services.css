@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+.header {
+  overflow: hidden;
+  background-image: linear-gradient(to right, rgba(2, 115, 134, 0.842) , rgba(10, 171, 199, 0.911) , rgba(5, 126, 148, 0.89) , rgba(2, 84, 99, 0.842));
+  padding:7px 7px;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 7px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 1px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.header a.logo {
+  font-size: 18px;
+  font-weight: normal;
+  font: 500;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header a:hover {
+  background-color: tomato;
+  color: white;
+}
+
+.header a.active {
+  background-color: rgba(2, 108, 214, 0.842);
+  color: white;
+}
+
+.header-right{
+    overflow: hidden;
+    float: right;
+    text-align: center;
+    padding: 7px;
+}
+
+.header-right a{
+  float: center;
+  color: white;
+  text-align: center;
+  padding: 7px;
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 0px;
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+ 
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+
+.header-right a.mail{
+  font-size: 17px;
+  font-weight: normal;
+  font: 500;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.foot{
+    overflow: hidden;
+    background-image: linear-gradient(to right, rgba(2, 115, 134, 0.842) , rgba(10, 171, 199, 0.911) , rgba(5, 126, 148, 0.89) , rgba(2, 84, 99, 0.842));
+    padding: 6px;
+  }
+  
+  .foot p{
+     text-align: center;
+     color: white;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 15px;
+  }
+ .arc h1{
+    font-weight: 500;
+    text-align: center;
+    padding: 50px 0px 20px 0px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline aqua ;
+    text-underline-offset: 5px;
+  }
+
+  .arc span{
+    color: tomato;
+  }
+.arc p{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 2px 10px 2px 10px;
+  margin-right: 8%;
+  margin-left: 8%;
+  margin-bottom: 20px;
+  font-style: normal;
+
+
+}
+
+.flex{
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  margin-bottom: 5rem;
+  
+
+}
+.flex div button{
+  background-color: whitesmoke;
+  margin: 10px;
+  padding: 0px 0px 10px 0px;
+  font-size: 30px;
+  width: 250;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  border: whitesmoke;
+  border-style: solid;
+  border-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  margin-left: 35px;
+}
+
+
+
+.flex div button:hover{
+ 
+ box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.411);
+}
+
+
